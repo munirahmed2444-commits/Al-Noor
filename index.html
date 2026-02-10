@@ -1,0 +1,3017 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL NOOR | The Gold Standard of Real Estate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#050505',
+                        gold: '#D4AF37',
+                        cream: '#F5F5F7',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            border-color: #D4AF37;
+            transform: translateY(-8px);
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .btn-gold-outline {
+            border: 1px solid #D4AF37;
+            color: #D4AF37;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-gold-outline:hover {
+            background: #D4AF37;
+            color: #050505;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .monogram {
+            letter-spacing: 0.2em;
+            border: 1px solid #D4AF37;
+            padding: 2px 8px;
+        }
+        /* Custom scrollbar for luxury feel */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; }
+    </style>
+</head>
+<body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
+
+    <nav class="fixed w-full z-50 glass-nav py-5 px-6 md:px-16 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <span class="monogram font-serif text-gold text-xl">AN</span>
+            <div class="hidden sm:block">
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
+            </div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
+            <a href="#home" class="hover:text-gold transition">Home</a>
+            <a href="#legacy" class="hover:text-gold transition">Legacy</a>
+            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#investors" class="hover:text-gold transition">Overseas</a>
+        </div>
+
+        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+            Book a Consultation
+        </a>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center parallax" 
+             style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(5,5,5,0.9)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000');">
+        
+        <div class="text-center z-10 px-4 max-w-5xl" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight tracking-tight">
+                The <span class="text-gold italic">Gold Standard</span> <br> 
+                <span class="text-3xl md:text-5xl font-light uppercase tracking-[0.2em]">of Multan Real Estate</span>
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
+                Guided by Trust • Powered by Excellence
+            </p>
+
+            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Primary Location</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option><option>Royal Orchard</option></select>
+                </div>
+                <div class="flex-1 p-5 border-r border-white/10 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Asset Class</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option><option>Residential Acreage</option></select>
+                </div>
+                <div class="flex-1 p-5 text-left">
+                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2">Valuation Range</label>
+                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>PKR 50M - 500M</option></select>
+                </div>
+                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500">
+                    Explore Inventory
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+        <div data-aos="fade-right">
+            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
+            <div class="w-24 h-[1px] bg-gold mb-10"></div>
+            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
+                At <span class="text-gold">Al Noor Real Estate</span>, we operate on a philosophy of architectural excellence and moral absolute. Founded on a legacy of high-authority service, we bring a "Presidential" level of scrutiny to every plot we verify.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-12">
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">100%</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Legal Verification</p>
+                </div>
+                <div>
+                    <h4 class="text-gold font-serif text-2xl mb-1">PKR 10B+</h4>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500">Assets Managed</p>
+                </div>
+            </div>
+            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px] inline-block">Learn More</a>
+        </div>
+        <div class="relative" data-aos="fade-left">
+            <div class="border border-gold/30 p-4">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-gold text-midnight p-10 hidden md:block">
+                <p class="font-serif text-3xl italic">Integrity</p>
+                <p class="text-[9px] uppercase tracking-[0.3em] mt-2 font-bold">Above All Else</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="py-32 bg-[#080808]">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">DHA Sector M</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Opal Mansion</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 1 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Royal Orchard</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">Ivory Executive</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 12 Marla</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
+                        <div class="absolute inset-0 bg-gradient-to-t from-midnight to-transparent opacity-60"></div>
+                        <div class="absolute bottom-6 left-6 text-xs uppercase tracking-widest text-gold">Buch Villas</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="font-serif text-2xl mb-6">The Grand Marquis</h3>
+                        <div class="flex justify-between border-t border-white/10 pt-6 text-gray-500 text-[10px] uppercase tracking-widest">
+                            <span class="flex items-center"><i data-lucide="layout" class="w-3 h-3 mr-2 text-gold"></i> 2 Kanal</span>
+                            <span class="flex items-center"><i data-lucide="shield-check" class="w-3 h-3 mr-2 text-gold"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <footer class="bg-midnight py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-12">Al Noor Real Estate • Multan</p>
+            <div class="flex space-x-12 mb-12 text-[10px] uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">LinkedIn</a>
+                <a href="#" class="hover:text-gold transition">Facebook</a>
+            </div>
+            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
+                Built for Excellence. All Rights Reserved 2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1200, once: true });
+    </script>
+</body>
+</html>vv
