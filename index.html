@@ -12,15 +12,8 @@
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        midnight: '#050505',
-                        gold: '#D4AF37',
-                        cream: '#F5F5F7',
-                    },
-                    fontFamily: {
-                        serif: ['Playfair Display', 'serif'],
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                    }
+                    colors: { midnight: '#050505', gold: '#D4AF37', cream: '#F5F5F7' },
+                    fontFamily: { serif: ['Playfair Display', 'serif'], sans: ['Plus Jakarta Sans', 'sans-serif'] }
                 }
             }
         }
@@ -33,7 +26,8 @@
         .btn-gold-outline { border: 1px solid #D4AF37; color: #D4AF37; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); display: inline-block; }
         .btn-gold-outline:hover { background: #D4AF37; color: #050505; box-shadow: 0 0 15px rgba(212, 175, 55, 0.4); }
         .monogram { letter-spacing: 0.2em; border: 1px solid #D4AF37; padding: 2px 8px; }
-        .form-container { background: white; border-radius: 8px; overflow: hidden; }
+        .form-container { background: white; border-radius: 12px; overflow: hidden; }
+        iframe { width: 100%; min-height: 1000px; border: none; }
     </style>
 </head>
 <body class="bg-midnight text-cream overflow-x-hidden font-sans antialiased">
@@ -42,7 +36,7 @@
         <div class="flex items-center space-x-4">
             <span class="monogram font-serif text-gold text-xl">AN</span>
             <div class="hidden sm:block text-left">
-                <span class="block text-sm uppercase tracking-[0.4em] font-serif">Al Noor</span>
+                <span class="block text-sm uppercase tracking-[0.4em] font-serif text-white">Al Noor</span>
                 <span class="block text-[8px] uppercase tracking-[0.3em] text-gold/60">Real Estate</span>
             </div>
         </div>
@@ -63,7 +57,7 @@
         </div>
     </section>
 
-    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
+    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center bg-midnight">
         <div data-aos="fade-right">
             <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
             <div class="w-24 h-[1px] bg-gold mb-10"></div>
@@ -76,19 +70,25 @@
 
     <section id="portfolio" class="py-32 bg-[#080808]">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-20"><p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p><h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2></div>
+            <div class="text-center mb-20">
+                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
+                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
+            </div>
             <div class="grid md:grid-cols-3 gap-12">
-                <div class="group gold-glow border border-white/5 bg-midnight p-4" data-aos="fade-up">
+                <div class="group gold-glow border border-white/5 bg-midnight p-4 transition-all duration-500" data-aos="fade-up">
                     <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-64 object-cover mb-6">
-                    <h3 class="font-serif text-2xl mb-2">The Opal Mansion</h3><p class="text-gold text-xs uppercase tracking-widest">DHA Sector M</p>
+                    <h3 class="font-serif text-2xl mb-2">The Opal Mansion</h3>
+                    <p class="text-gold text-xs uppercase tracking-widest">DHA Sector M</p>
                 </div>
-                <div class="group gold-glow border border-white/5 bg-midnight p-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="group gold-glow border border-white/5 bg-midnight p-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
                     <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-64 object-cover mb-6">
-                    <h3 class="font-serif text-2xl mb-2">Ivory Executive</h3><p class="text-gold text-xs uppercase tracking-widest">Royal Orchard</p>
+                    <h3 class="font-serif text-2xl mb-2">Ivory Executive</h3>
+                    <p class="text-gold text-xs uppercase tracking-widest">Royal Orchard</p>
                 </div>
-                <div class="group gold-glow border border-white/5 bg-midnight p-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="group gold-glow border border-white/5 bg-midnight p-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
                     <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-64 object-cover mb-6">
-                    <h3 class="font-serif text-2xl mb-2">The Grand Marquis</h3><p class="text-gold text-xs uppercase tracking-widest">Buch Villas</p>
+                    <h3 class="font-serif text-2xl mb-2">The Grand Marquis</h3>
+                    <p class="text-gold text-xs uppercase tracking-widest">Buch Villas</p>
                 </div>
             </div>
         </div>
@@ -103,9 +103,7 @@
             </div>
             <div class="max-w-4xl mx-auto form-container shadow-2xl" data-aos="zoom-in">
                 <div class="bg-gray-100 p-3 border-b border-gray-200 text-center"><p class="text-[9px] uppercase tracking-widest text-gray-600 font-bold">Secure Digital Submission Portal</p></div>
-                <div class="relative w-full" style="height: 850px;">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8dmOUUjBG6C_25iVFYm-YndJmzqYz8IWoC4bLClO1IQhvPg/viewform?embedded=true" width="100%" height="850" frameborder="0">Loading…</iframe>
-                </div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8dmOUUjBG6C_25iVFYm-YndJmzqYz8IWoC4bLClO1IQhvPg/viewform?embedded=true">Loading…</iframe>
             </div>
         </div>
     </section>
