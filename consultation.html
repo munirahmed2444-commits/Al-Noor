@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Consultation | AL NOOR REAL ESTATE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { midnight: '#050505', gold: '#D4AF37', cream: '#F5F5F7' },
+                    fontFamily: { serif: ['Playfair Display', 'serif'], sans: ['Plus Jakarta Sans', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { background-color: #050505; color: #F5F5F7; }
+        .gold-input {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            padding: 1rem;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        .gold-input:focus {
+            outline: none;
+            border-color: #D4AF37;
+            background: rgba(255, 255, 255, 0.07);
+        }
+        .luxury-card {
+            background: linear-gradient(145deg, #0a0a0a, #111);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="p-8">
+        <a href="index.html" class="flex items-center group">
+            <i data-lucide="arrow-left" class="w-5 h-5 text-gold mr-2 group-hover:-translate-x-1 transition"></i>
+            <span class="text-xs uppercase tracking-[0.3em] text-gray-400 group-hover:text-gold transition">Back to Home</span>
+        </a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <div class="text-center mb-16" data-aos="fade-down">
+            <h1 class="font-serif text-4xl md:text-5xl mb-4">Private <span class="text-gold italic">Consultation</span></h1>
+            <p class="text-gray-500 uppercase tracking-widest text-xs">Reserve a session with our Senior Investment Partners</p>
+        </div>
+
+        <div class="luxury-card p-8 md:p-12 shadow-2xl" data-aos="fade-up">
+            <form action="#" class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Full Name</label>
+                        <input type="text" class="gold-input text-sm" placeholder="e.g. Malik Ahmed">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Email Address</label>
+                        <input type="email" class="gold-input text-sm" placeholder="name@company.com">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Phone Number</label>
+                        <input type="tel" class="gold-input text-sm" placeholder="+92 ...">
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Interested Property Type</label>
+                        <select class="gold-input text-sm text-gray-400">
+                            <option>DHA Multan Villas</option>
+                            <option>Commercial Plots</option>
+                            <option>Overseas Investment Plan</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Investment Budget (PKR)</label>
+                        <select class="gold-input text-sm text-gray-400">
+                            <option>20M - 50M</option>
+                            <option>50M - 100M</option>
+                            <option>100M+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Preferred Meeting Method</label>
+                        <div class="flex gap-4 mt-2">
+                            <label class="text-xs flex items-center cursor-pointer">
+                                <input type="radio" name="method" class="mr-2 accent-gold"> In-Person
+                            </label>
+                            <label class="text-xs flex items-center cursor-pointer">
+                                <input type="radio" name="method" class="mr-2 accent-gold"> Video Call
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:col-span-2">
+                    <label class="block text-[10px] uppercase tracking-widest text-gold mb-2">Specific Requirements</label>
+                    <textarea rows="4" class="gold-input text-sm" placeholder="Tell us about your investment goals..."></textarea>
+                </div>
+
+                <div class="md:col-span-2 pt-6">
+                    <button type="submit" class="w-full bg-gold text-midnight font-bold py-4 uppercase tracking-[0.3em] text-xs hover:bg-white transition duration-500">
+                        Request Private Session
+                    </button>
+                    <p class="text-center text-gray-600 text-[10px] mt-6 italic">
+                        All consultations are strictly confidential and treated with presidential-level security.
+                    </p>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
