@@ -58,19 +58,15 @@
             border: 1px solid #D4AF37;
             padding: 2px 8px;
         }
-        /* Custom scrollbar */
         ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-track { background: #050505; }
         ::-webkit-scrollbar-thumb { background: #D4AF37; }
         
-        /* Iframe Blending */
-        .form-container iframe {
-            filter: invert(90%) hue-rotate(180deg) brightness(1.1) contrast(0.9);
-            opacity: 0.85;
-            transition: opacity 0.5s ease;
-        }
-        .form-container:hover iframe {
-            opacity: 1;
+        /* Fixed Form Container */
+        .form-container {
+            background: white; /* Form readable background */
+            border-radius: 8px;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -88,11 +84,11 @@
         <div class="hidden lg:flex space-x-10 uppercase text-[10px] tracking-[0.3em] text-gray-400">
             <a href="#home" class="hover:text-gold transition">Home</a>
             <a href="#legacy" class="hover:text-gold transition">Legacy</a>
-            <a href="#properties" class="hover:text-gold transition">Portfolio</a>
+            <a href="#portfolio" class="hover:text-gold transition">Portfolio</a>
             <a href="#contact" class="hover:text-gold transition">Contact</a>
         </div>
 
-        <a href="consultation.html" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
+        <a href="#contact" class="btn-gold-outline px-8 py-3 text-[10px] uppercase tracking-[0.2em] font-bold">
             Book a Consultation
         </a>
     </nav>
@@ -108,62 +104,6 @@
             <p class="text-gray-400 text-sm md:text-base tracking-[0.4em] mb-16 uppercase">
                 Guided by Trust • Powered by Excellence
             </p>
-
-            <div class="mx-auto bg-white/5 backdrop-blur-2xl border border-white/10 p-2 md:flex items-center">
-                <div class="flex-1 p-5 border-r border-white/10 text-left">
-                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2 text-left">Primary Location</label>
-                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>DHA Multan (Sectors A-Y)</option><option>Buch Villas</option></select>
-                </div>
-                <div class="flex-1 p-5 border-r border-white/10 text-left">
-                    <label class="block text-[9px] uppercase tracking-widest text-gold mb-2 text-left">Asset Class</label>
-                    <select class="bg-transparent w-full text-xs outline-none cursor-pointer"><option>Presidential Villa</option><option>Commercial Plot</option></select>
-                </div>
-                <button class="bg-gold text-midnight px-12 py-6 font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition duration-500 w-full md:w-auto">
-                    Explore Inventory
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section id="legacy" class="py-32 px-6 md:px-24 grid lg:grid-cols-2 gap-20 items-center">
-        <div data-aos="fade-right">
-            <h2 class="font-serif text-4xl md:text-6xl mb-10 leading-tight">The Presidential<br><span class="text-gold italic">Legacy</span></h2>
-            <div class="w-24 h-[1px] bg-gold mb-10"></div>
-            <p class="text-gray-300 leading-loose mb-8 font-light text-lg">
-                At <span class="text-gold">Al Noor Real Estate</span>, we verify every square foot with presidential scrutiny. We handle luxury assets with the integrity they deserve.
-            </p>
-            <a href="consultation.html" class="btn-gold-outline px-10 py-4 uppercase tracking-[0.2em] text-[10px]">Learn More</a>
-        </div>
-        <div class="relative" data-aos="fade-left">
-            <div class="border border-gold/30 p-4">
-                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1000" class="grayscale">
-            </div>
-        </div>
-    </section>
-
-    <section id="properties" class="py-32 bg-[#080808]">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-20">
-                <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Curated Collection</p>
-                <h2 class="font-serif text-4xl md:text-5xl">Elite Multan Listings</h2>
-            </div>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700 p-4" data-aos="fade-up">
-                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="w-full h-64 object-cover mb-6">
-                    <h3 class="font-serif text-2xl mb-2">The Opal Mansion</h3>
-                    <p class="text-gold text-xs uppercase tracking-widest">DHA Sector M</p>
-                </div>
-                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700 p-4" data-aos="fade-up" data-aos-delay="200">
-                    <img src="https://images.unsplash.com/photo-1600607687940-47a0f925901e?auto=format&fit=crop&q=80&w=800" class="w-full h-64 object-cover mb-6">
-                    <h3 class="font-serif text-2xl mb-2">Ivory Executive</h3>
-                    <p class="text-gold text-xs uppercase tracking-widest">Royal Orchard</p>
-                </div>
-                <div class="group gold-glow border border-white/5 bg-midnight transition-all duration-700 p-4" data-aos="fade-up" data-aos-delay="400">
-                    <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" class="w-full h-64 object-cover mb-6">
-                    <h3 class="font-serif text-2xl mb-2">The Grand Marquis</h3>
-                    <p class="text-gold text-xs uppercase tracking-widest">Buch Villas</p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -171,40 +111,31 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16" data-aos="fade-up">
                 <p class="text-gold tracking-[0.5em] text-[10px] uppercase mb-4">Inquiry Portal</p>
-                <h2 class="font-serif text-4xl md:text-5xl mb-6">Register Your Interest</h2>
+                <h2 class="font-serif text-4xl md:text-5xl mb-6 text-white">Register Your Interest</h2>
                 <div class="w-20 h-[1px] bg-gold mx-auto"></div>
             </div>
 
-            <div class="max-w-4xl mx-auto bg-midnight border border-gold/20 shadow-2xl overflow-hidden form-container" data-aos="zoom-in">
-                <div class="bg-gold/5 p-4 border-b border-gold/10 text-center">
-                    <p class="text-[10px] uppercase tracking-widest text-gold italic">Official Al Noor Documentation Portal</p>
+            <div class="max-w-4xl mx-auto form-container shadow-2xl" data-aos="zoom-in">
+                <div class="bg-gray-100 p-3 border-b border-gray-200 text-center">
+                    <p class="text-[9px] uppercase tracking-widest text-gray-600 font-bold">Secure Digital Submission Portal</p>
                 </div>
-                <div class="relative w-full h-[800px]">
+                <div class="relative w-full" style="height: 850px;">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8dmOUUjBG6C_25iVFYm-YndJmzqYz8IWoC4bLClO1IQhvPg/viewform?embedded=true" 
-                            width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            width="100%" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <a href="https://wa.me/yournumber" target="_blank" class="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition duration-300">
-        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
-    </a>
-
     <footer class="bg-midnight py-20 px-6 border-t border-white/5">
         <div class="max-w-7xl mx-auto flex flex-col items-center">
             <span class="monogram font-serif text-gold text-2xl mb-6">AN</span>
-            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-8">Al Noor Real Estate • Multan</p>
-            <p class="text-gray-800 text-[9px] uppercase tracking-widest italic text-center">
-                &copy; 2026 Al Noor. Presidential Excellence in Property.
-            </p>
+            <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-8">&copy; 2026 Al Noor Real Estate • Multan</p>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        lucide.createIcons();
         AOS.init({ duration: 1200, once: true });
     </script>
 </body>
